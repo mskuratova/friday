@@ -23,7 +23,7 @@
     "redux-thunk": "^2.4.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0",
-    "homepage": "http:mskuratova.github.io/friday"
+    "homepage": "https://mskuratova.github.io/friday"
   },
   "scripts": {
     "start": "react-scripts start",
