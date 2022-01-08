@@ -11,7 +11,7 @@ export const SIGN_IN_PATH = '/sign-in';
 export const REGISTER_PATH = '/register';
 export const FORGOT_PATH = '/forgot';
 
-export const NEKO_PATH = '/neko'; // profile
+export const MEMORY_PATH = '/memory'; // profile
 const Routes: React.FC = () => {
     return (
         <Routes>
@@ -20,7 +20,7 @@ const Routes: React.FC = () => {
             <Route path={SIGN_IN_PATH} element={<Navigate to={SIGN_IN_PATH}/>}/>
             <Route path={REGISTER_PATH} element={<Navigate to={REGISTER_PATH}/>}/>
             <Route path={FORGOT_PATH} element={<Navigate to={FORGOT_PATH}/>}/>
-            <Route path={NEKO_PATH} element={<Navigate to={NEKO_PATH}/>}/>
+            <Route path={MEMORY_PATH} element={<Navigate to={MEMORY_PATH}/>}/>
         </Routes>
     );
 };
